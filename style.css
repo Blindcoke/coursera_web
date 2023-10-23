@@ -1,0 +1,72 @@
+ h1{
+    margin: 100px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 175%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+
+div {
+    border: solid;
+    background-color: gray;
+}
+
+.title1{
+    font-family: cursive;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(214, 124, 124);
+}
+
+.title2{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    font-family: cursive;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+
+.title3{
+    font-family: cursive;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(236, 211, 139)
+}
+
+.text{
+    font-family: cursive;
+    padding: 10px;
+}
+@media (min-width: 992px){
+    section{
+        width: 33.33%;
+        float: left;
+    }
+}
